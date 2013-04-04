@@ -1,0 +1,103 @@
+
+body {
+	font-family: 'Questrial', sans-serif;
+}
+
+.container {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+
+article {
+	margin-top: 20px;
+}
+
+.banner {
+	width: 940px;
+	height: 250px;
+	
+}
+
+.banner img {
+	max-width:100%;
+	position: fixed;
+}
+
+body {
+	background-color: black;
+}
+
+#title {
+	float: right;
+	height: 460px;
+	margin-top: 30px;
+	width: 460px;
+}
+
+#title a {
+	text-decoration: none;
+}
+#title h1 {
+	color: white;
+	line-height: 460px;
+	margin: 0;
+	text-align: center;
+}
+
+#title h1:hover,
+#title h1:active {
+	background-color: #111;
+	color: #ccc;
+}
+
+p {
+	color: white;
+}
+
+.span6 {
+	margin: 30px 0 30px 0;
+}
+
+.article {
+	width: 100%;
+	-webkit-columns:2;
+	-moz-columns:2;
+}
+
+#rightarrow {
+	position: absolute;
+	top: 75px;
+	left: 840px;
+	height: 50%
+
+}
+
+#leftarrow {
+	position: absolute;
+	top: 75px;
+}
+
+#leftarrow:hover {
+	opacity: .5;
+}
+#rightarrow:hover {
+
+	opacity: .5;
+}
+
+
+.home {
+	color: white;
+	float: right;
+	font-size: 25px;
+	padding-top: 20px;
+	text-align: center;
+}
+.home:hover,
+.home:active {
+color: #ccc;
+text-decoration: none;
+}
+
+

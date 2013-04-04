@@ -1,0 +1,118 @@
+body {
+	background-color: black;
+	font-family: 'Questrial', sans-serif;
+}
+
+header {
+	background-color: black;
+	border-bottom: solid 1px #666;
+	float: left;
+	height: 200px;
+	margin-bottom: 6px;
+	position: fixed;
+	width: 940px;
+	z-index: 1;
+}
+
+header h1{
+	color: #bbb;
+	font-size: 70px;
+	line-height: 59px;
+	margin-top: 75px;
+}
+
+.thumbs {
+	margin: 240px 0 100px 0;
+}
+
+.thumbs a {
+	border: 0;
+	border-radius: 0;
+	max-height: 100%;
+	padding: 0;
+	overflow: hidden;
+}
+
+.thumbs a:hover {
+opacity: .7;
+}
+
+.thumbs li,.thumbs ul {
+	margin: 0;
+}
+
+.thumbs li {
+	width: 188px;
+	height: 188px;
+}
+
+.thumbs img {
+	max-width: 200%;
+	max-height: 100%;
+}
+
+/*footer*/
+.btn {
+	background: #222;
+	color:#fff;
+	margin-left: 413.5px;
+	text-shadow: none;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+
+}
+
+.btn:hover,
+.btn:active {
+	background: #333;
+	color: #fff;
+	text-shadow: none;
+}
+
+footer {
+	margin-bottom: 100px;
+}
+
+/*carousel*/
+.carousel-caption h4 {
+	float: left;
+}
+
+.carousel-caption h4 + h4 {
+	float: right;
+}
+
+.carousel-control {
+	border: 2px solid #666;
+	color: #fff;
+	line-height: 37px;
+	opacity: .8;
+	top: 50%;
+}
+
+.close {
+	color: #fff;
+	opacity: .7
+}
+/*modal styling*/
+
+#myModal {
+	margin-top: -350px;
+}
+
+.modal-body {
+	background-color: #111;
+	max-height: 100%;
+}
+
+.modal-header {
+	background-color: #111;
+	border-bottom: #bbb;
+	color: #fff;
+}
+
+.modal-footer {
+	background-color: #111;
+	border-top: 0;
+}
