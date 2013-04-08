@@ -341,3 +341,144 @@ p {
 	background-color: #111;
 	color: #ffdb4d;
 }
+
+#nujabes .home:hover,
+#nujabes .home:active {
+	color: #ff8585;
+}
+
+#nujabes #title h1:hover {
+	background-color: #111;
+	color: #ff8585;
+}
+
+#oddnosdam .home:hover,
+#oddnosdam .home:active {
+	color: #ccc;
+}
+
+#oddnosdam #title h1:hover {
+	background-color: #111;
+	color: #ccc;
+}
+
+#protomen .home:hover,
+#protomen .home:active {
+	color: #7575ff;
+}
+
+#protomen #title h1:hover {
+	background-color: #111;
+	color: #7575ff;
+}
+
+#radiohead .home:hover,
+#radiohead .home:active {
+	color: #a38566;
+}
+
+#radiohead #title h1:hover {
+	background-color: #111;
+	color: #a38566;
+}
+
+#sufjanstevens .home:hover,
+#sufjanstevens .home:active {
+	color: #cc0000;
+}
+
+#sufjanstevens #title h1:hover {
+	background-color: #111;
+	color: #cc0000;
+}
+
+#sunsetrubdown .home:hover,
+#sunsetrubdown .home:active {
+	color: #45b4ff;
+}
+
+#sunsetrubdown #title h1:hover {
+	background-color: #111;
+	color: #45b4ff;
+}
+
+#tenebre .home:hover,
+#tenebre .home:active {
+	color: #e6e6b8;
+}
+
+#tenebre #title h1:hover {
+	background-color: #111;
+	color: #e6e6b8;
+}
+
+#microphones .home:hover,
+#microphones .home:active {
+	color: #3d001f;
+}
+
+#microphones #title h1:hover {
+	background-color: #111;
+	color: #3d001f;
+}
+
+#thexx .home:hover,
+#thexx .home:active {
+	color: #501935;
+}
+
+#thexx #title h1:hover {
+	background-color: #111;
+	color: #501935;
+}
+
+#tobacco .home:hover,
+#tobacco .home:active {
+	color: #ffdbdb;
+}
+
+#tobacco #title h1:hover {
+	background-color: #111;
+	color: #ffdbdb;
+}
+
+#toe .home:hover,
+#toe .home:active {
+	color: #f7f7d7;
+}
+
+#toe #title h1:hover {
+	background-color: #111;
+	color: #f7f7d7;
+}
+
+#washedout .home:hover,
+#washedout .home:active {
+	color: #daeeee;
+}
+
+#washedout #title h1:hover {
+	background-color: #111;
+	color: #daeeee;
+}
+
+#why .home:hover,
+#why .home:active {
+	color: #66ccff;
+}
+
+#why #title h1:hover {
+	background-color: #111;
+	color: #66ccff;
+}
+
+
+#wolfparade .home:hover,
+#wolfparade .home:active {
+	color: #ff4d94;
+}
+
+#wolfparade #title h1:hover {
+	background-color: #111;
+	color: #ff4d94;
+}
