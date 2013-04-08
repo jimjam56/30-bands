@@ -180,3 +180,43 @@ p {
 	background-color: #111;
 	color: #A83EE6;
 }
+
+#antarctic .back:hover,
+#antarctic .back:active {
+	color: #ccffff;
+}
+
+#antarctic #title h1:hover {
+	background-color: #111;
+	color: #ccffff;
+}
+
+#baths .back:hover,
+#baths .back:active {
+	color: #08c;
+}
+
+#baths #title h1:hover {
+	background-color: #111;
+	color: #08c;
+}
+
+#battles .back:hover,
+#battles .back:active {
+	color: #ff7dbd;
+}
+
+#battles #title h1:hover {
+	background-color: #111;
+	color: #ff7dbd;
+}
+
+#dmst .back:hover,
+#dmst .back:active {
+	color: #cbaaff;
+}
+
+#dmst #title h1:hover {
+	background-color: #111;
+	color: #cbaaff;
+}
