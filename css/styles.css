@@ -117,7 +117,7 @@ footer {
 
 
 article {
-	line-height: 26px;
+	line-height: 28px;
 	margin-top: 20px;
 	width: 100%;
 	-webkit-columns:2;
@@ -157,7 +157,7 @@ p {
 	
 	
 
-.back {
+.home {
 	color: white;
 	float: right;
 	font-size: 25px;
@@ -171,8 +171,8 @@ p {
 
 
 
-#animal-collective .back:hover,
-#animal-collective .back:active {
+#animal-collective .home:hover,
+#animal-collective .home:active {
 	color: #A83EE6;
 }
 
@@ -181,8 +181,8 @@ p {
 	color: #A83EE6;
 }
 
-#antarctic .back:hover,
-#antarctic .back:active {
+#antarctic .home:hover,
+#antarctic .home:active {
 	color: #ccffff;
 }
 
@@ -191,8 +191,8 @@ p {
 	color: #ccffff;
 }
 
-#baths .back:hover,
-#baths .back:active {
+#baths .home:hover,
+#baths .home:active {
 	color: #08c;
 }
 
@@ -201,8 +201,8 @@ p {
 	color: #08c;
 }
 
-#battles .back:hover,
-#battles .back:active {
+#battles .home:hover,
+#battles .home:active {
 	color: #ff7dbd;
 }
 
@@ -211,12 +211,73 @@ p {
 	color: #ff7dbd;
 }
 
-#dmst .back:hover,
-#dmst .back:active {
+#dmst .home:hover,
+#dmst .home:active {
 	color: #cbaaff;
 }
 
 #dmst #title h1:hover {
 	background-color: #111;
 	color: #cbaaff;
+}
+
+#dosh .home:hover,
+#dosh .home:active {
+	color: #e6005c;
+}
+
+#dosh #title h1:hover {
+	background-color: #111;
+	color: #e6005c;
+}
+
+#fmtm .home:hover,
+#fmtm .home:active {
+	color: #ff1919;
+}
+
+#fmtm #title h1:hover {
+	background-color: #111;
+	color: #ff1919;
+}
+
+#fmtm #title h1 {
+	line-height: 40px;
+	padding: 190px 0 190px 0;	
+}
+
+#giraffes .home:hover,
+#giraffes .home:active {
+	color: #7beaa0;
+}
+
+#giraffes #title h1:hover {
+	background-color: #111;
+	color: #7beaa0;
+}
+
+#gybe .home:hover,
+#gybe .home:active {
+	color: #b54747;
+}
+
+#gybe #title h1:hover {
+	background-color: #111;
+	color: #b54747;
+}
+
+
+#gybe #title h1 {
+	line-height: 40px;
+	padding: 190px 0 190px 0;	
+}
+
+#health .home:hover,
+#health .home:active {
+	color: #e60000;
+}
+
+#health #title h1:hover {
+	background-color: #111;
+	color: #e60000;
 }
