@@ -281,3 +281,63 @@ p {
 	background-color: #111;
 	color: #e60000;
 }
+
+#listener .home:hover,
+#listener .home:active {
+	color: #ff3300;
+}
+
+#listener #title h1:hover {
+	background-color: #111;
+	color: #ff3300;
+}
+
+#manman .home:hover,
+#manman .home:active {
+	color: #e0a3c2;
+}
+
+#manman #title h1:hover {
+	background-color: #111;
+	color: #e0a3c2;
+}
+
+#menomena .home:hover,
+#menomena .home:active {
+	color: #ff0000;
+}
+
+#menomena #title h1:hover {
+	background-color: #111;
+	color: #ff0000;
+}
+
+#mogwai .home:hover,
+#mogwai .home:active {
+	color: #c2e0ff;
+}
+
+#mogwai #title h1:hover {
+	background-color: #111;
+	color: #c2e0ff;
+}
+
+#muxmool .home:hover,
+#muxmool .home:active {
+	color: #ffb84d;
+}
+
+#muxmool #title h1:hover {
+	background-color: #111;
+	color: #ffb84d;
+}
+
+#neonindian .home:hover,
+#neonindian .home:active {
+	color: #ffdb4d;
+}
+
+#neonindian #title h1:hover {
+	background-color: #111;
+	color: #ffdb4d;
+}
