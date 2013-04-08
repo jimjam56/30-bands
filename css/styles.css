@@ -1,6 +1,19 @@
+/*****Global Styling*****/
+a,
+a:active,
+a:hover,
+a:visited {
+	text-decoration: none;
+}
+
 body {
 	background-color: black;
 	font-family: 'Questrial', sans-serif;
+}
+
+.container {
+	position: relative;
+	margin-bottom: 50px;
 }
 
 header {
@@ -13,6 +26,8 @@ header {
 	width: 940px;
 	z-index: 1;
 }
+
+/*****Home Page Styling*****/
 
 header h1{
 	color: #bbb;
@@ -34,7 +49,7 @@ header h1{
 }
 
 .thumbs a:hover {
-opacity: .7;
+	opacity: .7;
 }
 
 .thumbs li,.thumbs ul {
@@ -51,68 +66,117 @@ opacity: .7;
 	max-height: 100%;
 }
 
-/*footer*/
-.btn {
-	background: #222;
-	color:#fff;
-	margin-left: 413.5px;
-	text-shadow: none;
-	border-radius: 15px;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-
-}
-
-.btn:hover,
-.btn:active {
-	background: #333;
-	color: #fff;
-	text-shadow: none;
-}
+	/*footer*/
 
 footer {
 	margin-bottom: 100px;
 }
 
-/*carousel*/
-.carousel-caption h4 {
-	float: left;
+
+/*****Individual Band Page styling (Global)*****/
+
+
+
+	/*header*/
+	
+	
+	
+.banner {
+	width: 940px;
+	height: 250px;
+	
 }
 
-.carousel-caption h4 + h4 {
+.banner img {
+	max-width:100%;
+	position: fixed;
+}
+
+#rightarrow {
+	position: absolute;
+	top: 75px;
+	left: 840px;
+	height: 50%
+}
+
+#leftarrow {
+	position: absolute;
+	top: 75px;
+}
+
+#leftarrow:hover {
+	opacity: .5;
+}
+
+#rightarrow:hover {
+	opacity: .5;
+}
+
+
+	/*main*/
+
+
+article {
+	line-height: 26px;
+	margin-top: 20px;
+	width: 100%;
+	-webkit-columns:2;
+	-moz-columns:2;
+}
+
+main {
+	margin-top: 250px;
+}
+
+p {
+	color: white;
+	margin: 0 0 20px;	
+}
+
+#title {
 	float: right;
+	height: 460px;
+	margin-top: 30px;
+	width: 460px;
 }
 
-.carousel-control {
-	border: 2px solid #666;
-	color: #fff;
-	line-height: 37px;
-	opacity: .8;
-	top: 50%;
+#title h1 {
+	color: white;
+	line-height: 460px;
+	margin: 0;
+	text-align: center;
 }
 
-.close {
-	color: #fff;
-	opacity: .7
-}
-/*modal styling*/
-
-#myModal {
-	margin-top: -350px;
+.span6 {
+	margin: 30px 0 30px 0;
 }
 
-.modal-body {
+
+
+	/*footer*/
+	
+	
+
+.back {
+	color: white;
+	float: right;
+	font-size: 25px;
+	padding-top: 20px;
+	text-align: center;	
+}
+
+
+
+/*****Individual hover link colors*****/
+
+
+
+#animal-collective .back:hover,
+#animal-collective .back:active {
+	color: #A83EE6;
+}
+
+#animal-collective #title h1:hover {
 	background-color: #111;
-	max-height: 100%;
-}
-
-.modal-header {
-	background-color: #111;
-	border-bottom: #bbb;
-	color: #fff;
-}
-
-.modal-footer {
-	background-color: #111;
-	border-top: 0;
+	color: #A83EE6;
 }
